@@ -1,0 +1,32 @@
+html, body, #root, .App {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: silver;
+  color: #004000;
+  font-family: sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header {
+  padding: 10px 15%;
+  height: 15%;
+  background-color: darkgrey;
+  text-align: center;
+}
+
+.green-shadow {
+  text-shadow:
+    1px 1px 0 #008000,
+    -1px -1px 0 #008000,
+    1px -1px 0 #008000,
+    -1px 1px 0 #008000,
+    1px 1px 0 #008000;
+}
