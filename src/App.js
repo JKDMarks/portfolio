@@ -40,6 +40,10 @@ function App() {
               <a href='mailto:jkdmarks@gmail.com'>
                 <Icon name='mail' size='big'/>
               </a>
+
+              <a href='https://learn.co/jeffmarks/resume'>
+                <Icon name='file text' size='big'/>
+              </a>
             </p>
           </Grid.Column>
         </Grid>
@@ -124,10 +128,10 @@ function App() {
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
                     <img src='https://i.imgur.com/T1TQwi4.png' alt='trade tracker screenshot' style={{maxHeight: '100%'}}/>
-                    <p className='text-on-img'>Swimmy Otter</p>
+                    <p className='text-on-img'>Trade Tracker</p>
                   </div>
                   <div className='flip-card-back'>
-                      <h2>Trade Tracker (WIP)</h2>
+                    <h2 className='not-link'>Current Project (WIP)</h2>
 
                     <a href='https://github.com/JKDMarks/trade-tracker-frontend'>
                       <h2>Frontend GitHub</h2>

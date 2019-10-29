@@ -92,7 +92,7 @@ body {
   color: #006000;
 }
 
-.flip-card-back h2:hover {
+.flip-card-back h2:hover:not(.not-link) {
   color: #004000;
 }
 
