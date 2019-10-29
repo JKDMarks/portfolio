@@ -1,13 +1,9 @@
 import React, { useState } from 'react'
-import { Grid, Segment, Popup, Icon } from 'semantic-ui-react'
+import { Grid, Segment, Icon } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
 
 function App() {
-  const [activeTab, setActiveTab] = useState('about')
-
-  const handleMenuItemClick = (e, {name}) => setActiveTab(name)
-
   return (
     <div className='App'>
       <Segment className='gray-container'>
