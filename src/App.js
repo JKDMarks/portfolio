@@ -36,6 +36,10 @@ function App() {
               <a href='https://medium.com/@jkdmarks'>
                 <Icon name='medium' size='big'/>
               </a>
+
+              <a href='mailto:jkdmarks@gmail.com'>
+                <Icon name='mail' size='big'/>
+              </a>
             </p>
           </Grid.Column>
         </Grid>
@@ -51,7 +55,7 @@ function App() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='./jeff.jpg' alt='Avatar' style={{width: '300px', maxHeight: '300px'}}/>
+                    <img src='https://i.imgur.com/sDnJILB.png' alt='alexandria screenshot' style={{maxHeight: '100%'}}/>
                     <p className='text-on-img'>Alexandria</p>
                   </div>
                   <div className='flip-card-back'>
@@ -73,12 +77,19 @@ function App() {
               <div className='flip-card'>
                 <div className='flip-card-inner'>
                   <div className='flip-card-front'>
-                    <img src='./jeff.jpg' alt='Avatar' style={{width: '300px', height: '300px'}}/>
+                    <img src='https://i.imgur.com/yPfYLdy.png' alt='cook this screenshot' style={{maxHeight: '100%'}}/>
+                    <p className='text-on-img'>Cook This</p>
                   </div>
                   <div className='flip-card-back'>
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer</p>
-                    <p>We love that guy</p>
+                    <a href='https://cookthis.herokuapp.com/'>
+                      <h2>Cook This Live Site</h2>
+                    </a>
+                    <a href='https://github.com/JKDMarks/cook-this-frontend'>
+                      <h2>Frontend GitHub</h2>
+                    </a>
+                    <a href='https://github.com/JKDMarks/cook-this-backend'>
+                      <h2>Backend GitHub</h2>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -87,11 +98,46 @@ function App() {
 
           <Grid.Row>
             <Grid.Column>
-              Project 3
+              <div className='flip-card'>
+                <div className='flip-card-inner'>
+                  <div className='flip-card-front'>
+                    <img src='https://i.imgur.com/KvXgcIW.png' alt='swimmy otter screenshot' style={{maxHeight: '100%'}}/>
+                    <p className='text-on-img'>Swimmy Otter</p>
+                  </div>
+                  <div className='flip-card-back'>
+                    <a href='https://swimmy-otter.herokuapp.com/'>
+                      <h2>Swimmy Otter Live Site</h2>
+                    </a>
+                    <a href='https://github.com/JKDMarks/swimmy-otter-frontend'>
+                      <h2>Frontend GitHub</h2>
+                    </a>
+                    <a href='https://github.com/JKDMarks/swimmy-otter'>
+                      <h2>Backend GitHub</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </Grid.Column>
 
             <Grid.Column>
-              Project 4
+              <div className='flip-card'>
+                <div className='flip-card-inner'>
+                  <div className='flip-card-front'>
+                    <img src='https://i.imgur.com/T1TQwi4.png' alt='trade tracker screenshot' style={{maxHeight: '100%'}}/>
+                    <p className='text-on-img'>Swimmy Otter</p>
+                  </div>
+                  <div className='flip-card-back'>
+                      <h2>Trade Tracker (WIP)</h2>
+
+                    <a href='https://github.com/JKDMarks/trade-tracker-frontend'>
+                      <h2>Frontend GitHub</h2>
+                    </a>
+                    <a href='https://github.com/JKDMarks/trade-tracker-backend'>
+                      <h2>Backend GitHub</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </Grid.Column>
           </Grid.Row>
         </Grid>
