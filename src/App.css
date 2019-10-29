@@ -4,8 +4,9 @@ html, body, #root {
 }
 
 body {
-  background-color: silver;
+  background-color: #F0F0F0;
   font-family: sans-serif;
+  color: #006000;
 }
 
 @font-face {
@@ -15,7 +16,38 @@ body {
   src: local('Signika Regular'), local('Signika-Regular'), url(https://fonts.gstatic.com/s/signika/v10/vEFR2_JTCgwQ5ejvG1EmBg.woff2) format('woff2');
 }
 
-.menu.massive {
+.gray-container {
+  margin: 3% 10% !important;
+  background-color: silver !important;
+  /* background-color: #A0A0A0; */
+}
+
+#face-pic {
+  border-radius: 50%;
+  max-width: 65%;
+}
+
+.title-text {
+  font-family: 'Signika';
+  font-size: 3em;
+}
+
+#blurb {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 2em 0;
+}
+
+#blurb p a {
+  color: #006000;
+  margin: 0 25px;
+}
+
+#blurb p a:hover {
+  color: #004000;
+}
+
+/* .menu.massive {
   background-color: #A0A0A0;
   text-align: center;
 }
@@ -35,7 +67,7 @@ body {
 .menu.massive .active.item {
   color: #004000;
   font-weight: bolder;
-}
+} */
 
 /* .clearfix::after {
   content: "";
@@ -46,7 +78,7 @@ body {
 /* .header {
   padding: 10px 15%;
   height: 15%;
-  background-color: darkgrey;
+  background-color: darkgray;
   text-align: center;
 } */
 
