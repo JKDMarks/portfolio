@@ -41,18 +41,58 @@ function App() {
         </Grid>
       </Segment>
 
+
       <Segment className='gray-container'>
         <h1 className='title-text' style={{textAlign: 'center'}}>Projects</h1>
 
-        <Grid columns={2} centered>
-          <Grid.Row>
-            <Grid.Column>hi</Grid.Column>
-            <Grid.Column>hi</Grid.Column>
+        <Grid columns={2} textAlign='center'>
+          <Grid.Row style={{height: 'auto'}}>
+            <Grid.Column>
+              <div className='flip-card'>
+                <div className='flip-card-inner'>
+                  <div className='flip-card-front'>
+                    <img src='./jeff.jpg' alt='Avatar' style={{width: '300px', maxHeight: '300px'}}/>
+                    <p className='text-on-img'>Alexandria</p>
+                  </div>
+                  <div className='flip-card-back'>
+                    <a href='https://www.youtube.com/watch?v=wA2RBYRZaFk'>
+                      <h2>Demo Video</h2>
+                    </a>
+                    <a href='https://github.com/JKDMarks/alexandria-frontend'>
+                      <h2>Frontend GitHub</h2>
+                    </a>
+                    <a href='https://github.com/JKDMarks/alexandria-backend'>
+                      <h2>Backend GitHub</h2>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </Grid.Column>
+
+            <Grid.Column>
+              <div className='flip-card'>
+                <div className='flip-card-inner'>
+                  <div className='flip-card-front'>
+                    <img src='./jeff.jpg' alt='Avatar' style={{width: '300px', height: '300px'}}/>
+                  </div>
+                  <div className='flip-card-back'>
+                    <h1>John Doe</h1>
+                    <p>Architect & Engineer</p>
+                    <p>We love that guy</p>
+                  </div>
+                </div>
+              </div>
+            </Grid.Column>
           </Grid.Row>
 
           <Grid.Row>
-            <Grid.Column>hi</Grid.Column>
-            <Grid.Column>hi</Grid.Column>
+            <Grid.Column>
+              Project 3
+            </Grid.Column>
+
+            <Grid.Column>
+              Project 4
+            </Grid.Column>
           </Grid.Row>
         </Grid>
       </Segment>
