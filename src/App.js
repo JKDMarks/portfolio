@@ -37,7 +37,7 @@ function App() {
                 <Icon name='mail' size='big'/>
               </a>
 
-              <a href='https://learn.co/jeffmarks/resume'>
+              <a href='https://jkdmarks.github.io/portfolio/Jeffrey-Marks-Resume.pdf'>
                 <Icon name='file text' size='big'/>
               </a>
             </p>
