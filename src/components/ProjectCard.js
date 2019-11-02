@@ -16,7 +16,7 @@ function ProjectCard({ project: {name, imgSrc, imgAlt, links} }) {
                 <Fragment key={name + ' ' + i}>
                   {
                     url ? (
-                      <a href={url}>
+                      <a href={url} target='_blank'>
                         <h2>{text}</h2>
                       </a>
                     ) : (
