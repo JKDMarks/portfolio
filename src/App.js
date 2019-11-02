@@ -3,10 +3,22 @@ import { Grid, Segment, Icon } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
 import './App.css'
 
+import Containers from './containers'
+const { Summary } = Containers
+
 function App() {
+  // const linkIcons = [
+  //   { url: 'https://github.com/jkdmarks', iconName: 'github square' },
+  //   { url: 'https://www.linkedin.com/in/jkdmarks/', iconName: 'linkedin' },
+  //   { url: 'https://medium.com/@jkdmarks', iconName: 'medium' },
+  //   { url: 'mailto:jkdmarks@gmail.com', iconName: 'mail' },
+  //   { url: 'https://jkdmarks.github.io/portfolio/Jeffrey-Marks-Resume.pdf', iconName: 'file text' },
+  // ]
+
   return (
     <div className='App'>
-      <Segment className='gray-container'>
+      <Summary />
+      {/*<Segment className='gray-container'>
         <Grid centered>
           <Grid.Column width={4} textAlign='center'>
             <h1 className='title-text'>Jeffrey Marks</h1>
@@ -21,29 +33,11 @@ function App() {
             <br/>
 
             <p style={{textAlign: 'center'}}>
-              <a href='https://github.com/jkdmarks'>
-                <Icon name='github square' size='big'/>
-              </a>
-
-              <a href='https://www.linkedin.com/in/jkdmarks/'>
-                <Icon name='linkedin' size='big'/>
-              </a>
-
-              <a href='https://medium.com/@jkdmarks'>
-                <Icon name='medium' size='big'/>
-              </a>
-
-              <a href='mailto:jkdmarks@gmail.com'>
-                <Icon name='mail' size='big'/>
-              </a>
-
-              <a href='https://jkdmarks.github.io/portfolio/Jeffrey-Marks-Resume.pdf'>
-                <Icon name='file text' size='big'/>
-              </a>
+              {linkIcons.map(({ url, iconName }) => <Components.LinkIcon url={url} iconName={iconName} /> )}
             </p>
           </Grid.Column>
         </Grid>
-      </Segment>
+      </Segment>*/}
 
 
       <Segment className='gray-container'>
