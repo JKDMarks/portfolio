@@ -14,13 +14,15 @@ function ProjectCard({ project: {name, imgSrc, imgAlt, links} }) {
             {
               links.map(({ url, text }, i) => (
                 <Fragment key={name + ' ' + i}>
-                  url ? (
-                    <a href={url}>
-                      <h2>{text}</h2>
-                    </a>
-                  ) : (
-                    <h2 className='not-link'>{text}</h2>
-                  )
+                  {
+                    url ? (
+                      <a href={url}>
+                        <h2>{text}</h2>
+                      </a>
+                    ) : (
+                      <h2 className='not-link'>{text}</h2>
+                    )
+                  }
                 </Fragment>
               ))
             }
