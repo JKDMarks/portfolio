@@ -29,7 +29,11 @@ function Summary() {
             <br/>
 
             <p style={{textAlign: 'center'}}>
-              {linkIcons.map(({ url, iconName }) => <LinkIcon url={url} iconName={iconName} /> )}
+              {
+                linkIcons.map(({ url, iconName }) => (
+                  <LinkIcon key={iconName} url={url} iconName={iconName} />
+                ))
+              }
             </p>
           </Grid.Column>
         </Grid>
