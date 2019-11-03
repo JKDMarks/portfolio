@@ -1,8 +1,7 @@
 import React from 'react'
 import { Segment, Grid } from 'semantic-ui-react'
 
-import Components from '../components'
-const { LinkIcon } = Components
+import { LinkIcon } from '../components'
 
 function Summary() {
   const linkIcons = [

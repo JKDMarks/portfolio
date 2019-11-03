@@ -1,7 +1,7 @@
 import Summary from './Summary'
 import ProjectsContainer from './ProjectsContainer'
 
-export default {
+export {
   Summary,
   ProjectsContainer
 }

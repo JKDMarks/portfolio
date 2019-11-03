@@ -1,8 +1,7 @@
 import React from 'react'
 import { Grid, Segment } from 'semantic-ui-react'
 
-import Components from '../components'
-const { ProjectCard } = Components
+import { ProjectCard } from '../components'
 
 function ProjectsContainer() {
   const projects = [
