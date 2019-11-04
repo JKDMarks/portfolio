@@ -56,7 +56,7 @@ function ProjectsContainer() {
 
   return (
     <Segment className='gray-container'>
-      <h1 className='title-text' style={{textAlign: 'center'}}>Projects</h1>
+      <h1 className='title-text center-text'>Projects</h1>
 
       <Grid columns={2} textAlign='center'>
         {

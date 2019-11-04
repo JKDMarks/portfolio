@@ -22,17 +22,8 @@ body {
   transform: translateY(-50%);
 }
 
-.horizontal-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.true-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.center-text {
+  text-align: center;
 }
 
 .gray-container {
@@ -96,6 +87,7 @@ body {
 
 .flip-card-front {
   text-align: center;
+  z-index: 0;
 }
 
 .flip-card-front img {
@@ -103,14 +95,21 @@ body {
 }
 
 .flip-card-back {
-  /* display: table !important; */
+  display: table;
   background-color: darkgray;
   transform: rotateY(180deg);
+}
+
+.flip-card-back-inner {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .flip-card-back h2 {
   margin: 10px 0;
   color: #006000;
+  white-space: nowrap;
+  z-index: 1;
 }
 
 .flip-card-back h2:hover:not(.not-link) {

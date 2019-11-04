@@ -4,20 +4,20 @@ function ProjectCard({ project: {name, imgSrc, imgAlt, links} }) {
   return (
     <div className='flip-card'>
       <div className='flip-card-inner'>
-        <div className='flip-card-front' style={{zIndex: 0}}>
+        <div className='flip-card-front'>
           <img src={imgSrc} alt={imgAlt} />
-          <p className='text-on-img' style={{zIndex: 1}}>{name}</p>
+          <p className='text-on-img'>{name}</p>
         </div>
 
         <div className='flip-card-back'>
-          <div className='true-center'>
+          <div className='flip-card-back-inner'>
             {
               links.map(({ url, text }, i) => (
                 <Fragment key={name + ' ' + i}>
                   {
                     url ? (
                       <a href={url} target='_blank'>
-                        <h2 style={{zIndex: 2}}>{text}</h2>
+                        <h2>{text}</h2>
                       </a>
                     ) : (
                       <h2 className='not-link'>{text}</h2>

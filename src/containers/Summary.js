@@ -28,7 +28,7 @@ function Summary() {
 
               <br/>
 
-              <p style={{textAlign: 'center'}}>
+              <p className='center-text'>
                 {
                   linkIcons.map(({ url, iconName }) => (
                     <LinkIcon key={iconName} url={url} iconName={iconName} />
