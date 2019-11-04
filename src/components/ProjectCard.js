@@ -9,8 +9,8 @@ function ProjectCard({ project: {name, imgSrc, imgAlt, links} }) {
           <p className='text-on-img' style={{zIndex: 1}}>{name}</p>
         </div>
 
-        <div className='flip-card-back' style={{ display: 'table' }}>
-          <div style={{display: 'table-cell', verticalAlign: 'middle'}}>
+        <div className='flip-card-back'>
+          <div className='true-center'>
             {
               links.map(({ url, text }, i) => (
                 <Fragment key={name + ' ' + i}>

@@ -23,17 +23,19 @@ function Summary() {
           <Grid.Column width={1} />
 
           <Grid.Column width={7} id='blurb'>
-            <p>Hi, I'm Jeff! My primary hat is that of a Full-Stack Software Engineer. I have extensive experience in JavaScript, React, Ruby, Ruby on Rails and much more.</p>
+            <div className='vertical-center'>
+              <p>Hi, I'm Jeff! My primary hat is that of a Full-Stack Software Engineer. I have extensive experience in JavaScript, React, Ruby, Ruby on Rails and much more.</p>
 
-            <br/>
+              <br/>
 
-            <p style={{textAlign: 'center'}}>
-              {
-                linkIcons.map(({ url, iconName }) => (
-                  <LinkIcon key={iconName} url={url} iconName={iconName} />
-                ))
-              }
-            </p>
+              <p style={{textAlign: 'center'}}>
+                {
+                  linkIcons.map(({ url, iconName }) => (
+                    <LinkIcon key={iconName} url={url} iconName={iconName} />
+                  ))
+                }
+              </p>
+            </div>
           </Grid.Column>
         </Grid>
       </Segment>

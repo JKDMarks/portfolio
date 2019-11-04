@@ -16,6 +16,25 @@ body {
   src: local('Signika Regular'), local('Signika-Regular'), url(https://fonts.gstatic.com/s/signika/v10/vEFR2_JTCgwQ5ejvG1EmBg.woff2) format('woff2');
 }
 
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.true-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .gray-container {
   margin: 3% 10% !important;
   background-color: silver !important;
@@ -35,7 +54,6 @@ body {
 #blurb {
   font-size: 1.5em;
   line-height: 1.5em;
-  margin: 2em 0;
 }
 
 #blurb p a {
