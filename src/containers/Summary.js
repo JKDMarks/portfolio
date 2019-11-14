@@ -20,15 +20,15 @@ function Summary() {
               <h1 className='title-text'>Jeffrey Marks</h1>
               <img src='./jeff.jpg' id='face-pic' alt='my face'/>
 
-              <br/><br/>
-
-              <p className='center-text'>
-                {
-                  linkIcons.map((linkIcon, i) => (
-                    <LinkIcon key={i} {...linkIcon} />
-                  ))
-                }
-              </p>
+              <div id='my-links'>
+                <p className='center-text'>
+                  {
+                    linkIcons.map((linkIcon, i) => (
+                      <LinkIcon key={i} {...linkIcon} />
+                    ))
+                  }
+                </p>
+              </div>
             </div>
           </Grid.Column>
 

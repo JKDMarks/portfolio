@@ -37,6 +37,10 @@ body {
   max-width: 65%;
 }
 
+#my-links {
+  margin-top: 25px;
+}
+
 .title-text {
   font-family: 'Signika';
   font-size: 3em;
