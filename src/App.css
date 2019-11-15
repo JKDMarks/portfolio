@@ -26,6 +26,10 @@ body {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 .gray-container {
   margin: 3% 10% !important;
   background-color: silver !important;
